@@ -15,7 +15,7 @@
   }
   
   h1, h2 {
-    color: purple;
+    color: #007bff;
     text-align: center;
     
   
@@ -27,6 +27,7 @@
      margin: 0 auto 30px auto;
     display: flex;
     gap: 10px;
+    color: rgb(185, 167, 167);
     
     
     
@@ -53,7 +54,7 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: transparent;
     border: 1px solid #ccc;
     border-radius: 8px;
   }
@@ -63,7 +64,7 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #c5acac;
     border-radius: 5px;
     font-size: 1rem;
   }

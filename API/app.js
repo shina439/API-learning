@@ -14,7 +14,7 @@ async function loadPosts() {
 
     
     postsContainer.innerHTML = posts.slice(0, 5).map(post => `
-      <div style="border: 9px solid #ccc; margin: 10px; padding: 10px;">
+      <div style="border: 5px solid white; margin: 10px; padding: 10px;">
         <h3>${post.title}</h3>
         <p>${post.body}</p>
       </div>
