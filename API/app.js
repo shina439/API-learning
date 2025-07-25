@@ -14,7 +14,7 @@ async function loadPosts() {
 
     
     postsContainer.innerHTML = posts.slice(0, 5).map(post => `
-      <div class="post-body">
+      <div style="border: 9px solid #ccc; margin: 10px; padding: 10px;">
         <h3>${post.title}</h3>
         <p>${post.body}</p>
       </div>
@@ -57,3 +57,4 @@ postForm.addEventListener("submit", async (e) => {
     alert("Failed to post: " + err.message);
   }
 });
+
